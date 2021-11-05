@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Poppins:wght@300&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(45deg, #a1ffce, #f9ffd1);
+}
+
+h1, p,a{
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 30px;
+}
+table{
+    width: 80%;
+    margin: 50px auto;
+    height: 500px;
+    border-top: solid 2px dimgray;
+    padding-top: 25px;
+}
+td{
+   
+    text-align: center;
+    padding-top: 20px;
+    align-items: center;
+    text-decoration: dimgrey;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+td:hover{
+    border: gray solid 2px;
+}
